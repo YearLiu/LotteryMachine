@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+#index {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+#index #LKdraw {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#index #LKdraw #LK_top {
+  position: absolute;
+  right: 0;
+  top: 140px;
+}
+#index #LKdraw #LK_top img:nth-child(1) {
+  width: 450px;
+}
+#index #LKdraw #LK_top img:nth-child(2) {
+  position: absolute;
+  top: 9px;
+  right: 50px;
+  width: 340px;
+}
+#index #LKdraw #LK_top img:nth-child(3) {
+  position: absolute;
+  top: 79px;
+  right: 60px;
+  width: 350px;
+}
+#index #LKdraw #game_out {
+  position: absolute;
+  bottom: 440px;
+  left: 100px;
+  width: 305px;
+}
+#index #LKdraw #game_out img {
+  width: 100%;
+}
+#index #LKdraw #game_out p {
+  position: absolute;
+  font-size: 45px;
+  top: -2px;
+  right: -6px;
+  letter-spacing: 18px;
+}
+#index #LKdraw #game_box {
+  position: absolute;
+  bottom: 200px;
+  left: 70px;
+  width: 400px;
+}
+#index #LKdraw #game_box .Gbk {
+  width: 100%;
+}
+#index #LKdraw #game_box #Box_roll {
+  overflow: hidden;
+  width: 320px;
+  height: 140px;
+  position: absolute;
+  top: 37px;
+}
+#index #LKdraw #game_box #Box_roll div[id^='roll'] {
+  position: absolute;
+  top: -98px;
+  width: 41px;
+}
+#index #LKdraw #game_box #Box_roll div[id^='roll'] img {
+  width: 100%;
+}
+#index #LKdraw #game_box #Box_roll #roll1 {
+  left: 65px;
+}
+#index #LKdraw #game_box #Box_roll #roll2 {
+  left: 163px;
+}
+#index #LKdraw #game_box #Box_roll #roll3 {
+  left: 255px;
+}
+#index #LKdraw #start_game {
+  position: absolute;
+  bottom: 75px;
+  left: 135px;
+  width: 230px;
+}
+#index #LKdraw #start_game img {
+  width: 100%;
+}
+#index #LKdraw #hdsm {
+  position: absolute;
+  bottom: 31px;
+  left: 201px;
+}
+#index #LKdraw #hdsm img {
+  width: 80%;
+}
+#index #rule {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#index #rule .R_box {
+  width: 432px;
+  height: 564px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#index #rule .rule_bk {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#index #rule .rule_font {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#index #rule #rule_cls {
+  width: 5%;
+  position: absolute;
+  right: 65px;
+  top: 70px;
+}
+#index #rule .rule_jsq {
+  width: 70%;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#index #gife1,
+#index #gife2,
+#index #gife3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#index #gife1 .gife1_font_top,
+#index #gife2 .gife1_font_top,
+#index #gife3 .gife1_font_top {
+  position: absolute;
+  width: 100%;
+  top: 150px;
+}
+#index #gife1 .gife1_font_top .gife1_font_top_1,
+#index #gife2 .gife1_font_top .gife1_font_top_1,
+#index #gife3 .gife1_font_top .gife1_font_top_1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  margin: auto;
+  width: 40%;
+}
+#index #gife1 .gife1_font_top .gife1_font_top_2,
+#index #gife2 .gife1_font_top .gife1_font_top_2,
+#index #gife3 .gife1_font_top .gife1_font_top_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  margin: auto;
+  width: 60%;
+}
+#index #gife1 .gife1_font_top .gife1_font_top_3,
+#index #gife2 .gife1_font_top .gife1_font_top_3,
+#index #gife3 .gife1_font_top .gife1_font_top_3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  margin: auto;
+  width: 30%;
+}
+#index #gife1 .gife1_font_cen,
+#index #gife2 .gife1_font_cen,
+#index #gife3 .gife1_font_cen {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+}
+#index #gife1 .gife1_font_cen .gife1_font_cen_1,
+#index #gife2 .gife1_font_cen .gife1_font_cen_1,
+#index #gife3 .gife1_font_cen .gife1_font_cen_1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  margin: auto;
+  width: 25%;
+}
+#index #gife1 .gife1_font_cen .gife1_font_cen_2,
+#index #gife2 .gife1_font_cen .gife1_font_cen_2,
+#index #gife3 .gife1_font_cen .gife1_font_cen_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 220px;
+  margin: auto;
+  width: 30%;
+}
+#index #gife1 .gife1_font_bot,
+#index #gife2 .gife1_font_bot,
+#index #gife3 .gife1_font_bot {
+  position: absolute;
+  width: 100%;
+  bottom: 255px;
+}
+#index #gife1 .gife1_font_bot .gife1_font_bot_1,
+#index #gife2 .gife1_font_bot .gife1_font_bot_1,
+#index #gife3 .gife1_font_bot .gife1_font_bot_1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  margin: auto;
+  width: 40%;
+}
+#index #gife1 .gife1_font_bot .gife1_font_bot_2,
+#index #gife2 .gife1_font_bot .gife1_font_bot_2,
+#index #gife3 .gife1_font_bot .gife1_font_bot_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45px;
+  margin: auto;
+  width: 60%;
+}
+#noGift {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+#noGift .noGift_box {
+  width: 432px;
+  height: 564px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#noGift .noGift_box img:nth-child(1) {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#noGift .noGift_box img:nth-child(2) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  margin: 0 auto;
+  width: 50%;
+}
+#noGift .noGift_box img:nth-child(3) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 150px;
+  margin: 0 auto;
+  width: 60%;
+}
+#noGift .noGift_box #noGift_cls {
+  position: absolute;
+  top: 85px;
+  right: 60px;
+  width: 5%;
+}
+#gife1,
+#gife2,
+#gife3 {
+  display: none;
+}
